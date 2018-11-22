@@ -21,9 +21,11 @@ html {
 article {
   font-family: "Crimson Text", sans-serif;
   max-width: 43em;
+  font-size: 1.125rem;
 }
 
 article h1 {
+  font-weight: normal;
   margin-bottom: 0;
 }
 
@@ -57,4 +59,16 @@ blockquote {
 
 .quote {
   color: #999;
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
 }
